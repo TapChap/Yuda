@@ -7,6 +7,7 @@ public class yudabuda {
         System.out.println("enter your name: ");
         String name = in.nextLine();
 
-        System.out.println("Hello " + name + "!");
+        if (name.equals("yuda")) System.out.println("yudabudaaaaa");
+        else System.out.println("Go away!");
     }
 }
